@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập JS Nâng Cao</title>
+</head>
+<body>
+    <!-- BÀI 1 -->
+    <div class="bai1">
+        <h1>Bài 1: Viết chương trình nhập vào ngày, tháng, năm (Giả sử nhập đúng, không cần kiểm tra hợp lệ).
+            Tìm ngày, tháng, năm của ngày tiếp theo. Tương tự tìm ngày tháng năm của ngày trước đó.</h1>
+        <label> Day: </label>
+        <input type="text" id="day">
+        <label>Month: </label>
+        <input type="text" id="month">
+        <label>Year: </label>
+        <input type="text" id="year">
+        <button id="btnFind">Tìm</button>
+        <div id="showResult" style="display: none;">
+            <p id="pDateBefore"></p>
+            <p id="pDateCurrent"></p>
+            <p id="pDateAfter"></p>
+        </div>
+    </div>
+    <hr>
+    <!-- BÀI 2 -->
+    <div class="bai2">
+        <h1>Bài 2: Viết chương trình nhập vào tháng, năm. Cho biết tháng đó có bao nhiêu ngày. (bao gồm tháng
+            của năm nhuận).</h1>
+        <label>Month: </label>
+        <input type="text" id="ipMonth">
+        <label>Year: </label>
+        <input type="text" id="ipYear">
+        <button id="btnKetQua">Kết quả</button>
+    </div>
+    <!-- BÀI 3 -->
+    <div class="bai3">
+        <h1>Bài 3: Viết chương trình nhập vào số nguyên có 3 chữ số. In ra cách đọc nó.</h1>
+        <label>Nhập số cần đọc (*SỐ CÓ 3 CHỮ SỐ): </label>
+        <input type="text" id="ipNum">
+        
+        <button id="btnDoc">Đọc</button>
+    </div>
+    <!-- BÀI 4 -->
+    <div class="bai4">
+        <h1>Bài 4: Cho biết tên và tọa độ nhà của 3 sinh viên. Cho biết tọa độ của trường đại học. Viết chương
+            trình in tên sinh viên xa trường nhất.</h1>
+        <label>Nhập tên sinh viên A: </label>
+        <input type="text" id="ipNameA">
+        <label>Nhập tọa độ X: </label>
+        <input type="text" id="ipXA">
+        <label>Nhập tọa độ Y: </label>
+        <input type="text" id="ipYA">
+        <br>
+        <label>Nhập tên sinh viên B: </label>
+        <input type="text" id="ipNameB">
+        <label>Nhập tọa độ X: </label>
+        <input type="text" id="ipXB">
+        <label>Nhập tọa độ Y: </label>
+        <input type="text" id="ipYB">
+        <br>
+        <label>Nhập tên sinh viên C: </label>
+        <input type="text" id="ipNameC">
+        <label>Nhập tọa độ X: </label>
+        <input type="text" id="ipXC">
+        <label>Nhập tọa độ Y: </label>
+        <input type="text" id="ipYC">
+        <br>
+        <label>Nhập tọa độ trường học: </label>
+        <br>
+        <label>Nhập tọa độ X: </label>
+        <input type="text" id="ipXS">
+        <label>Nhập tọa độ Y: </label>
+        <input type="text" id="ipYS">
+
+        
+        <button id="btnTinh">Tính</button>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
